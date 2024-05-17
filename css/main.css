@@ -1,0 +1,117 @@
+/* CSS HSL */
+:root{
+  --madder: hsla(355, 76%, 36%, 1);
+  --columbia-blue: hsla(210, 78%, 86%, 1);
+  --indigo-dye: hsla(203, 90%, 19%, 1);
+  --teal: hsla(190, 64%, 34%, 1);
+  --rojo: hsla(357, 73%, 50%, 1);
+  
+ 
+  
+}
+
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+
+
+/* CSS HSL */
+
+
+
+/* --------------------------- */
+
+/* Navbar CSS */
+
+a{
+  text-decoration: none;
+  
+  
+
+}
+
+a:hover{
+  color: var(--teal);
+}
+
+/* --------------------------- */
+
+
+
+/* Video */
+
+.btn-change{
+  background: linear-gradient(to bottom, #969090, var(--teal) 55%);
+}
+
+.object-fit-md-contain{
+  max-height: 70vh;
+  background-attachment: fixed;
+  object-fit: contain;
+  object-position: center;
+  
+}
+
+.video-container {
+  position: relative;
+  
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+}
+
+.controls {
+  position: absolute;
+  left: 26%; 
+  width: 50%;
+  background-color: var(--teal);
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.controls button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: rgba(197, 56, 56, 0.1);
+}
+
+.controls .timeline {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.controls .bar {
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.712);
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.controls .bar .inner {
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}

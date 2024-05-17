@@ -1,0 +1,91 @@
+
+/* CSS HSL */
+:root{
+  --madder: hsla(355, 76%, 36%, 1);
+  --columbia-blue: hsla(210, 78%, 86%, 1);
+  --indigo-dye: hsla(203, 90%, 19%, 1);
+  --teal: hsla(190, 64%, 34%, 1);
+  --rojo: hsla(357, 73%, 50%, 1);
+  --columbia1-blue: rgb(183, 215, 248);
+  
+}
+
+
+/* --------------------------- */
+
+/* Navbar CSS */
+
+.bg-nav-body{
+  background-color: var(--columbia-blue); 
+  color: var(--indigo-dye);
+}
+
+.bg-second-body{
+  background: linear-gradient(to left, #969090, hsl(210, 78%, 86%) 50%, #615d5d 75%, #587274 75%);
+  width: 90vw;
+  margin: auto;
+}
+
+/* Logo Font */
+.text-artp{
+  font-family: "Roboto Condensed", sans-serif;
+  color:var(--indigo-dye);
+  
+}
+
+.text-o{
+  font-family: "Luckiest Guy", cursive;
+  color: var(--rojo);
+}
+/* --------------------------- */
+
+/* img responsive */
+
+.img-percent{
+  width:50vw;
+}
+
+
+
+.main-first-img{
+  background-color: var(--columbia-blue);
+}
+
+/* Accordion */
+
+.accordion{ 
+  
+   
+  width: 100%; 
+  background: var(--teal); 
+  margin:0 auto; 
+  padding: 1rem; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 0 5px rgba(0,0,0,0.2); 
+} 
+.accordion .accordion-header{ 
+  margin:10px 0; 
+  border-radius: 5px; 
+  background-color:#fff; 
+  border-color: var(--rojo);
+  overflow: hidden; 
+} 
+
+
+
+
+/* Title Background */
+
+.third-body{
+  background: linear-gradient(to top, #969090, hsl(210, 78%, 86%) 55%, #615d5d 55%, #ffffff 50%,#969090, hsl(210, 78%, 86%) 55% );
+}  
+
+/* --------------------------- */
+
+
+
+
+
+
+
+
