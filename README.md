@@ -34,12 +34,11 @@ Users should be able to:
 ![Desktop](./img/1.JPG)
 ![Desktop](./img/2.JPG)
 ![Mobile](./img/3.JPG)
-![Flexible Menu](./img/4.JPG)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://vercel.com/ozgurcc1s-projects/paint-ai)
+- Solution URL: [Add solution URL here](https://paint-ai.vercel.app/)
 
 
 ## My process
